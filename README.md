@@ -1,2 +1,2 @@
 # senix
- Web based interface for elderly
+ Web based interface for elderly.

@@ -37,7 +37,7 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 240px;
+    width: 230px;
     height: 100%;
     overflow: hidden;
     text-align: center;
@@ -110,11 +110,11 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    left: 240px;
+    left: 230px;
     height: 100%;
     overflow: hidden;
     background: #ddd;
-    border: 6px solid #ccc;
+    border-left: 6px solid #ccc;
     box-sizing: border-box;
 }
 

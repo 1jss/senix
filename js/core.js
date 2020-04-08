@@ -8,9 +8,9 @@ Core.init = function() {
 	$(window).ready(function() {
 		for (var sc in shortcut) {
 			_cache.launcherTemp = {
-				"title": shortcut[sc][1],
-				"shortcut": shortcut[sc][0],
-				"imgsrc": shortcut[sc][2]
+				"shortcut": shortcut[sc][0],				"name": shortcut[sc][1],
+				"icon": shortcut[sc][2],
+				"background": shortcut[sc][4],
 			};
 			$('.task-window').append(FormatModel(launcherTemp, _cache.launcherTemp));
 		}
